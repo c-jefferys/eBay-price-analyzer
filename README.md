@@ -6,3 +6,8 @@ Utilizes BeautifulSoup to parse the html page of a given eBay search and retriev
 **BeautifulSoup**: Used to scrape the eBay search result page for the prices of any results. \
 **Requests**: Used to get the html webpage. \
 **NumPy**: Used to remove outliers from the list of prices and calculate the average of the refined price list.
+
+## Installation
+**BeautifulSoup**: pip install bs4 \
+**Requests**: pip install requests \
+**NumPy**: pip install numpy
