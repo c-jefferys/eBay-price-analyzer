@@ -1,2 +1,8 @@
-# eBay-price-analyzer
-Python program that parses an eBay search webpage and retrieves price information.
+# eBay Price Analyzer
+## Overview
+Utilizes BeautifulSoup to parse the html page of a given eBay search and retrieves, filters and averages out the prices found. The program outputs the initial list of prices, the filtered list of prices and the average price of the search.
+
+## Packages Used
+**BeautifulSoup**: Used to scrape the eBay search result page for the prices of any results. \
+**Requests**: Used to get the html webpage. \
+**NumPy**: Used to remove outliers from the list of prices and calculate the average of the refined price list.
